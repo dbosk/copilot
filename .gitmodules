@@ -1,0 +1,3 @@
+[submodule "bibedu"]
+	path = bibedu
+	url = https://github.com/dbosk/bibedu.git
