@@ -2,6 +2,15 @@
 \usepackage[utf8]{inputenc}
 %\usepackage{fullpage}
 \usepackage{hyperref}
+\usepackage{csquotes}
+\usepackage[all]{foreign}
+
+\usepackage{enumitem}
+\usepackage{cleveref}
+\newlist{courses}{enumerate}{1}
+\setlist[courses]{label={(C\arabic*)},ref={C\arabic*}}
+\crefname{coursesi}{course}{courses}
+\Crefname{coursesi}{Course}{Courses}
 
 \title{When flying blind, bring a co-pilot}
 
@@ -18,35 +27,95 @@ Dept. of Theoretical Computer Science, EECS
 \section*{Submission Instructions}
 \textbf{Deadline is Dec 4th 2020 --- \href{https://intra.kth.se/utbildning/utveckling-och-hogskolepedagogik/kth-sotl/conference-kth/instruktioner-for-bidrag-1.970431}{Click for Instructions}}
 
-\section*{Purpose and background}
-The skill set surrounding remote teaching is one that many of us are currently building. Besides the new technological challenges to our normal practice, we also encounter challenges in our experience of teaching; no longer can we read the room, rather we can only gaze out into a grid of mostly black squares that Zoom presents to us. Efforts to ``read the Zoom'', such as asking students to turn camera on create at best a visual distraction for other students, and at worst a power dynamic: should we even be asking this, and do we (and the rest of the class) have the right to peer into private learning spaces of students?
 
-The purpose of this contribution is to share our positive experiences of remote teaching, with a focus on strategies on improving remote lectures. We experimented with a co-pilot approach to remote lectures over zoom, where one academic takes the lead for presenting the lecture content, whilst the second academic, the co-pilot, takes care of various duties like managing the chat area, keeping time, reminders, confirmations, and engaging in discussion before, during and at the conclusion of the lecture. The end result was a more enjoyable experience for the students and a less lonely experience for the academic. Furthermore, this turns out to be a great way to naturally adopt the pedagogical practice of peer observation of teaching.
+\section*{Purpose and background}
+
+The skill set surrounding remote teaching is one that many of us are currently 
+building. Besides the new technological challenges to our normal practice, we 
+also encounter challenges in our experience of teaching; no longer can we read 
+the room, rather we can only gaze out into a grid of mostly black squares that 
+Zoom presents to us.
+Efforts to \enquote{read the Zoom}, such as asking students to turn camera on 
+might work in small classes, but for classes of more than 30 students, Zoom 
+creates several pages of video feeds to scroll through.
+And while sharing the screen (\eg slides), the teacher can only see very few 
+students at the same time.
+There is also the question about the power dynamic: should we even be asking 
+this, and do we (and the rest of the class) have the right to peer into private 
+learning spaces of students?
+
+The purpose of this contribution is to share our positive experiences of remote 
+teaching, with a focus on strategies on improving remote lectures\footnote{%
+  And perhaps lectures in general.
+}.
+We experimented with a co-pilot approach to remote lectures over Zoom, where 
+one academic takes the lead for presenting the lecture content, whilst the 
+second academic, the co-pilot, takes care of various duties like managing the 
+chat area, keeping time, reminders, confirmations, and engaging in discussion 
+before, during and at the conclusion of the lecture.
+The end result was a more enjoyable experience for the students and a less 
+lonely experience for the academic.
+Furthermore, this turns out to be a great way to naturally adopt the 
+pedagogical practice of peer observation of teaching.
+
 
 \section*{Work in progress}
-So far, we have delivered a 10 week course to a cohort of 200 first year computer science students. Each weekly lecture has given us the opportunity to experiment with the co-piloting approach and learn where it is helpful. As the course concludes it seems opportune to share these findings with other teachers at KTH.
+
+So far, we have delivered the following courses in this way:
+\begin{courses}
+  \item\label{datintro20} DD1301 Computer introduction, a two-week course with 
+    a cohort of 265 first year students distributed over several programmes.
+    It consisted of three one-hour lectures.
+
+  \item\label{inda20} DD1337 Programming, a 10-week course to with a cohort of 
+    200 first-year computer science (CDATE) students.
+    It consisted of 13 two-hour lectures.
+
+  \item\label{prgi20} DD1315 Programming Techniques and Matlab, a 10-week 
+    course with a cohort of 163 first year CINEK students.
+    It consisted of 16 two-hour lectures, two per week during the active weeks.
+\end{courses}
+
+\ref{datintro20} was our initial experiment.
+This course started ahead of the others.
+The introductory lecture generated
+207
+\emph{public}\footnote{%
+  Messages sent directly to one of the teachers are hard to track.
+} messages in the chat during one hour.
+The second lecture generated
+X% XXX Ric has the chat saved?
+public messages in the chat during one hour.
+Whereas the third generated
+170
+public messages during the one-hour lecture.
+
+Each weekly lecture has given us the opportunity to experiment with the 
+co-piloting approach and learn where it is helpful.
+As the course concludes it seems opportune to share these findings with other 
+teachers at KTH.
 
 \section*{Results / observations / lessons learned}
 The results can be divided into three branches - for the students, for the teacher, and for the copilot.
 
 \textbf{For students:}
 \begin{itemize}
-    \item There is a better energy in the discussion between teacher and co-pilot, allowing multiple perspectives on any given topic, as well as informal chit chat at the beginning, middle and end of lecture
-    \item Students can ask questions in chat and have them answered directly by the co-pilot, or the co-pilot can decide to interrupt and share the question with the teacher
-    \item ...?
+  \item There is a better energy in the discussion between teacher and co-pilot, allowing multiple perspectives on any given topic, as well as informal chit chat at the beginning, middle and end of lecture
+  \item Students can ask questions in chat and have them answered directly by the co-pilot, or the co-pilot can decide to interrupt and share the question with the teacher
+  \item ...?
 \end{itemize}
 
 \textbf{For teachers:}
 \begin{itemize}
-    \item You are not alone. Simple audio/visual checks can be made. Reminders on time keeping. Alerts to important discussions happening in the chat area.
-    \item There is no technical cost. Simply adding another teacher to the room is easy and feels natural.
-    \item You can focus. The stress of managing all of the new aspects of teaching remotely can make us perform less well than in our regular theatre. Offloading some of this worry really helps to refocus on the content and learning.
-    \item ...?
+  \item You are not alone. Simple audio/visual checks can be made. Reminders on time keeping. Alerts to important discussions happening in the chat area.
+  \item There is no technical cost. Simply adding another teacher to the room is easy and feels natural.
+  \item You can focus. The stress of managing all of the new aspects of teaching remotely can make us perform less well than in our regular theatre. Offloading some of this worry really helps to refocus on the content and learning.
+  \item ...?
 \end{itemize}
 
 \textbf{For copilots:}
 \begin{itemize}
-    \item
+  \item
 \end{itemize}
 
 Whilst not the intention, co-piloting turned out to be a great way of naturally introducing \textbf{peer observation of teaching} (PoT), a critical pedagogical practice for helping to develop and maintain awareness of how you perform in class from an objective point of view [REF]. PoT can be difficult to integrate into teaching as the presence of another teacher in class initially creates the feeling of having done something wrong rather than a constructive opportunity for both the teacher and observer to learn more about teaching.
