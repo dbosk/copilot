@@ -4,8 +4,10 @@ all: main.pdf
 
 LATEXFLAGS+=	-shell-escape
 
-main.pdf: main.tex
-main-slides.pdf: main-slides.tex
+SRC+= 			main.bib
+
+main.pdf: main.tex ${SRC}
+main-slides.pdf: main-slides.tex ${SRC}
 
 
 .PHONY: clean
