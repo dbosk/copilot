@@ -1,0 +1,18 @@
+\usepackage{csquotes}
+\usepackage[all]{foreign}
+
+\usepackage{enumitem}
+\usepackage{cleveref}
+\newlist{courses}{enumerate}{1}
+\setlist[courses]{label={(C\arabic*)},ref={C\arabic*}}
+\crefname{coursesi}{course}{courses}
+\Crefname{coursesi}{Course}{Courses}
+
+\usepackage{biblatex}
+\addbibresource{main.bib}
+\usepackage{acro}
+\DeclareAcronym{POT}{%
+  short = POT,
+  long = peer observation of teaching,
+}
+
