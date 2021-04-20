@@ -110,11 +110,15 @@ Weaknesses
 ----------- Value -----------
 SCORE: 2 (New perspective, issue, approach, or problem definition)
 ----------- Suggestions -----------
-I think you also have to add the "Keywords" and "CCS" sections.
-On page 2, directly following the top two bulleted items on the top, change
-"Student's" to "Students", and then change "co-pilots experience" to
-"co-pilot's experience" (in the first bullet, starting "You are not alone",
-in the second bulleted list on p. 2).
+[Fixed!] I think you also have to add the "Keywords" and "CCS" sections.
+
+[Fixed!] On page 2, directly following the top two bulleted items on the top, 
+change "Student's" to "Students",
+
+[Fixed!] and then change "co-pilots experience" to "co-pilot's experience" (in 
+the first bullet, starting "You are not alone", in the second bulleted list on 
+p. 2).
+
 ----------- Overall evaluation -----------
 SCORE: 5 (Clear Accept: Content, presentation, and writing meet
 professional norms; improvements may be advisable but acceptable as is)
@@ -150,39 +154,64 @@ more costly itself as two lecturers have to spent their time with the same
 number of students. For this reason, not every lecturer and not every
 institution cann afford this approach. This consideration should at least
 be mentioned.
+
+[It is mentioned: abstract, last paragraph of discussion.]
+
 - Which skills are required from teachers in order to make the cooperative
 scenario work? Can you reflect on that? Would this approach work for
 everyone?
+
+[Hard to fit such a reflection, but yes, we believe it will work for everyone.]
+
 - I am not sure why the second lecturer was an actual support for "the
 pilot" and the students. A teaching assistant could have helped with the
-chat during the zoom call, as well. I cannot follow the line of arguments.
-I do not see the actual cooperation. Moreover, I would have recommended a
-collaboarative approach instead of a cooperation which is nothing but a
-division of tasks.
+chat during the zoom call, as well.
+
+[Using a TA as co-pilot was one of the three cases.]
+
+I cannot follow the line of arguments. I do not see the actual cooperation. 
+Moreover, I would have recommended a collaboarative approach instead of a 
+cooperation which is nothing but a division of tasks.
+
+[Sure, there is division of tasks; but it's more a division of focus than 
+tasks, they blend at the interaction between pilot and co-pilot.]
+
 - the scenario seems pretty informal and relatively unstructured, which is,
 of course, understandable due to the rapid changes last year, but "informal
 discussions" as preperation of the academic term are hard to follow.
+
+[Not sure how to interpret this, when students ask questions there is sort of 
+an informal discussion with the goal of solving the problem, right?]
+
 - why did the number of messages decrease so rapidly during the semester?
 Do you have an explanation for that? And why do you only show data for 10
 (C2) and 3 (C3) lectures, when you previously state that there were 13
 lectures? (table 1)
+
+[Changed C2 (DD1337) to 10 lectures in the intro, now it's consistent.]
+
 - How did you gather the data which led you to the conclusions of students'
 benefits? Are there other conclusions or insights available from the
 student evaluation?
+
+[Student benefits was from student evaluations: they got their questions 
+answered, that made them happy.]
+
 ----------- Value -----------
 SCORE: 5 (No significant contribution)
 ----------- Suggestions -----------
-- typo in the abstract (verb-noun agreement): -> benefits for students,
-teachers and the co-pilot...
-- "a proactive co-pilot" not an
+- [Fixed!] typo in the abstract (verb-noun agreement): -> benefits for 
+  students, teachers and the co-pilot...
+- [Fixed!] "a proactive co-pilot" not an
 ----------- Overall evaluation -----------
 SCORE: 2 (Probable Reject: Basic flaws in content or presentation or very
 poorly written)
 ----- TEXT:
 The report offers insights into the implementation of three different CS
 classes which had to be adapted due to the pandemic. It seems as if the
-authors had jointly given classes before. I am, therefore, not convinced
-whether this sudden switch to remote teaching would work for just any
+authors had jointly given classes before. [No, this was the first time. And it 
+was the first time with dbosk's TAs too. Added to text.] I am, therefore, not 
+convinced whether this sudden switch to remote teaching would work for just any 
 couple of lecturers who may not even know each other.
 
 Moreover, the authors do not reflect well enough on the time cost, the
@@ -191,6 +220,11 @@ understand the possible benefits of peer observation, but once, twice or
 three times max per semester is more than sufficient to achive the very
 same goals. Moreover, it is more easy to realize as hardly any university
 has the ressources to let two lecturers facilitate one course.
+
+[Renting a room for a lecture costs *at least* 1200 SEK (up to 4200 SEK) for a 
+two hour lecture. A TA costs 300 SEK for the same lecture. Leaving campus and 
+going online, I can afford *at least* four TA co-pilots per lecture --- the 
+entire course.]
 
 The concept is also not clearly presented so that I do not see how it can
 be applied to other contexts or institutions, or in which regard it offers
