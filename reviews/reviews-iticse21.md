@@ -224,7 +224,7 @@ has the ressources to let two lecturers facilitate one course.
 [Renting a room for a lecture costs *at least* 1200 SEK (up to 4200 SEK) for a 
 two hour lecture. A TA costs 300 SEK for the same lecture. Leaving campus and 
 going online, I can afford *at least* four TA co-pilots per lecture --- the 
-entire course.]
+entire course. Added as footnote.]
 
 The concept is also not clearly presented so that I do not see how it can
 be applied to other contexts or institutions, or in which regard it offers
