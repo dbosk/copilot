@@ -1,0 +1,30 @@
+\usepackage{csquotes}
+\usepackage[all]{foreign}
+
+\usepackage[inline]{enumitem}
+\newlist{paragraphs}{enumerate*}{1}
+\setlist[paragraphs]{
+    label=(\theparagraphsi),
+    itemjoin=\newline\hspace*{\parindent}
+}
+
+\usepackage[capitalize]{cleveref}
+\newlist{courses}{enumerate}{1}
+\setlist[courses]{label={(C\arabic*)},ref={C\arabic*}}
+\crefname{coursesi}{course}{courses}
+\Crefname{coursesi}{Course}{Courses}
+\crefformat{footnote}{#2\footnotemark[#1]#3}
+
+\usepackage{biblatex}
+\addbibresource{main.bib}
+\usepackage{acro}
+\DeclareAcronym{POT}{%
+  short = POT,
+  long = peer observation of teaching,
+  cite = PeerObservation
+}
+\DeclareAcronym{TA}{%
+  short = TA,
+  long = teaching assistant
+}
+
